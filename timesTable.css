@@ -1,0 +1,98 @@
+ :root{
+            --myBgColor: #021f2c;
+        }
+        *{
+            margin: 0;
+            
+            text-align: center;
+            color: #a5a4a4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .values{
+            width: 100%;
+            align-items: center;
+            margin: 10px 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        main{
+            background: var(--myBgColor);
+            padding: 20px 20px;
+            width: 40%;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #becfd6;
+        }
+        table{
+            width: 100%;
+        }
+        .myStyle{
+            padding: 10px;
+            background: rgba(1, 17, 31, 0.9);
+        }
+        #div{
+            width: 8rem;
+            border-top: 1px dotted #86d5f5;
+            border-bottom: 1px dotted #86d5f5;
+            padding: 5px;
+            color: white;
+            text-align: left;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+        select{
+            border-radius: 5px;
+            border: 2px solid #3d3b3b;
+            box-shadow: .1px .1px 5px #cfcccc;
+        }
+        .myShadow{
+            box-shadow: .12px .2px 5px #cfcccc;
+        }
+        select{
+            padding: 5px;
+        }
+        .myAni{
+            animation: degree 3s ease-in-out infinite;
+        }
+        table{
+            width: 100%;
+        }
+        .myRowWidth{
+            width: 100%;
+        }
+        #footer{
+            background:  #000c11;
+            text-align: center;
+            padding: 10px;
+        }
+        .splash{
+            animation: splash 4s ease-in-out infinite;
+        }
+        @media only screen and (max-width: 768px){
+           body{
+               margin: 0;
+           }
+           main{
+               width: 90%;
+           } 
+           main{
+            padding: 10px 10px;
+           }
+        }
+        @keyframes degree{
+            0%{
+                transform: rotateY(90deg);
+                color: aquamarine;
+            }
+        }
+        @keyframes splash{
+            
+            60%, 70%{
+                color:#c7d4da;
+                font-size: 16px;
+                background: linear-gradient(#021f2c, rgb(182, 17, 17));
+            }
+            
+        }
