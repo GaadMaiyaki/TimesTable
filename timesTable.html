@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"  href="./timesTable.css"/>
+</head>
+<body style="width: 100%;">
+    <main class="myShadow" style="border: 5px solid #00131b;">
+        <div class="myShadow">
+        <header>
+            <hgroup class="splash" style="background: #000c11;">
+                <h2 style="margin: 10px 0; text-decoration: underline; padding: 8px;">My Multiplication Table</h2>
+            </hgroup>
+        </header>
+        <section class="values">
+            <span class="myShadow" style="border: 2px solid #3d3b3b; color:aquamarine; background: cadetblue; padding: 4px;">
+                Change Box:
+            </span>
+            <select class="myShadow" id="myVal" style="margin: 20px 0 20px 5px; padding: 5px;">
+                <option>Choose an option</option>
+                <option>Multiplication</option>
+                <option>Addition</option>
+                <option>Subtraction</option>
+                <option>Division</option>
+            </select>
+        </section>
+        <section>
+            <div id="notify" style="padding: 10px; background: #000c11; color: #eee; font-size: 20px;">
+                <h4  class="myAni" >Notification Bar</h4>
+            </div>
+
+        </section>
+        <section class="myShadow" id="tableParent" style="margin-bottom: 20px; text-align: left; overflow-x: auto;">
+            <table id="theTable" class="myShadow">
+            </table>
+        </section>
+        <section id="myDisp" style="margin: 20px 0;">
+        </section>
+        </div>
+    </main>
+    
+    <script type="text/javascript" src="./timesTable.js"></script>
+</body>
+</html>
